@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0919A75CF73DC10D17EE113129C10B /* EFQRCodeCreator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0A91CCEA2584CE7F6317924F6386FA /* EFQRCodeCreator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FFB16B57F5CA98A8FE4945287F11E5E /* Pods-EFQRCodeCreator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEAB672035C2D9DFB15BE65942C21F3 /* Pods-EFQRCodeCreator_Example-dummy.m */; };
+		2116B552564C23ECCC392045C778BD4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		30AE822E3E36E5C8E2B12DBF254FF962 /* Pods-EFQRCodeCreator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E78F707C635F343F6F04D4110C6866 /* Pods-EFQRCodeCreator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3460FF049D9B658377B4D4C5A4D5FB03 /* Pods-EFQRCodeCreator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD01C21E2EF6BF5B309C5EF5FBF99ADF /* Pods-EFQRCodeCreator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42C5746294FFB5DB101E16CB9E6D20FD /* EFQRCodeCreator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 066CE037B931E6678674EF66E4A9DCD8 /* EFQRCodeCreator-dummy.m */; };
+		4732C3CF01B139EF1A4A52B4AF62CBC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		48A5BF8436303463C08AF4B7B9A88BC0 /* EFQRCodeCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258D2835C43C5C41B52A739D171B9904 /* EFQRCodeCreator.swift */; };
+		D370F93F4CCD054589A9689CE647B8DA /* Pods-EFQRCodeCreator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7306E423A0183A509BAFA47CFC1E04 /* Pods-EFQRCodeCreator_Tests-dummy.m */; };
+		DD1E1EF1EA92E332B560376871E2A9AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31646B92501CE93E422623B08B715821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 784B555B636E748FE6D80AA75DCC26E9;
+			remoteInfo = EFQRCodeCreator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012CAC6E5F08637D9E2BF0F713B560C1 /* Pods-EFQRCodeCreator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFQRCodeCreator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		066CE037B931E6678674EF66E4A9DCD8 /* EFQRCodeCreator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFQRCodeCreator-dummy.m"; sourceTree = "<group>"; };
+		09F782C6BCDBC76601165150E5F603F0 /* Pods-EFQRCodeCreator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFQRCodeCreator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BAC6AAD49353CE40D67F3B215442C40 /* EFQRCodeCreator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFQRCodeCreator.xcconfig; sourceTree = "<group>"; };
+		0E7306E423A0183A509BAFA47CFC1E04 /* Pods-EFQRCodeCreator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFQRCodeCreator_Tests-dummy.m"; sourceTree = "<group>"; };
+		14E425D8570E7568D471DCFE5C3582AE /* Pods-EFQRCodeCreator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFQRCodeCreator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		258D2835C43C5C41B52A739D171B9904 /* EFQRCodeCreator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EFQRCodeCreator.swift; sourceTree = "<group>"; };
+		5142D462FA927DF535FB6D7B918CFEB7 /* Pods_EFQRCodeCreator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EFQRCodeCreator_Example.framework; path = "Pods-EFQRCodeCreator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E78F707C635F343F6F04D4110C6866 /* Pods-EFQRCodeCreator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFQRCodeCreator_Example-umbrella.h"; sourceTree = "<group>"; };
+		5ACDEC46FE547A23BF153318F35EE142 /* Pods-EFQRCodeCreator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EFQRCodeCreator_Tests.modulemap"; sourceTree = "<group>"; };
+		5B5ABCA5778A44A6D0322B51669534A5 /* EFQRCodeCreator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFQRCodeCreator-prefix.pch"; sourceTree = "<group>"; };
+		5EBEE4709FBBBFBBCCECF2A46A2B537E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64EC2A4874C471F1AEFBB4B881C43987 /* Pods-EFQRCodeCreator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFQRCodeCreator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		705433FFDBB8F437C9B4D1BABDE00E38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81ACE8C8CBE9CA0D0867912C98864840 /* Pods-EFQRCodeCreator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFQRCodeCreator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89F2C390011C1652CAB0E1172DFB1B37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BF0B48DBE3FF86D003049FBCE288460 /* Pods-EFQRCodeCreator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EFQRCodeCreator_Example.modulemap"; sourceTree = "<group>"; };
+		8C0A91CCEA2584CE7F6317924F6386FA /* EFQRCodeCreator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFQRCodeCreator-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		997FCEF76F582A02311A2A6E1542ED51 /* Pods_EFQRCodeCreator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EFQRCodeCreator_Tests.framework; path = "Pods-EFQRCodeCreator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3646E8379DAF31419BBFF2FD3B056D /* EFQRCodeCreator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EFQRCodeCreator.framework; path = EFQRCodeCreator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B665F0D76C27B6055ECA521363FF71FA /* Pods-EFQRCodeCreator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFQRCodeCreator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6E72852FCE35522D8317543398B5D77 /* Pods-EFQRCodeCreator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFQRCodeCreator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C684A7E3F86E69A46AA0FC1F09930DEC /* Pods-EFQRCodeCreator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFQRCodeCreator_Tests-resources.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCB0BF9511CD7B7DCF44860FE9AA1E1C /* Pods-EFQRCodeCreator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFQRCodeCreator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD01C21E2EF6BF5B309C5EF5FBF99ADF /* Pods-EFQRCodeCreator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFQRCodeCreator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D055B7633EE14F1828509F288794EE2C /* Pods-EFQRCodeCreator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFQRCodeCreator_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DA99991BDE8F833799DBD8C5767A7E05 /* EFQRCodeCreator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EFQRCodeCreator.modulemap; sourceTree = "<group>"; };
+		DAEAB672035C2D9DFB15BE65942C21F3 /* Pods-EFQRCodeCreator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFQRCodeCreator_Example-dummy.m"; sourceTree = "<group>"; };
+		F032FF1DC141B11E970A64004F53A3BD /* Pods-EFQRCodeCreator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFQRCodeCreator_Example-resources.sh"; sourceTree = "<group>"; };
+		F883B188FCEC3D3A331BEFFCC8F45736 /* Pods-EFQRCodeCreator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFQRCodeCreator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		475924D28F579BA54BBB1CC09A8FA323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2116B552564C23ECCC392045C778BD4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06249C49D17A3BA49399C9232DF7B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4732C3CF01B139EF1A4A52B4AF62CBC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5669B052C0FA2A5D21FB79B505379B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1E1EF1EA92E332B560376871E2A9AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02320923F7C990F21B40168B7BA24D13 /* EFQRCodeCreator */ = {
+			isa = PBXGroup;
+			children = (
+				563A32A240F5B06B6E41E74C7685E215 /* Classes */,
+			);
+			name = EFQRCodeCreator;
+			path = EFQRCodeCreator;
+			sourceTree = "<group>";
+		};
+		0E07985B0959451FEF9ED04DEC82E841 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F87AD72C5FE458069680A6432A3570FC /* Pods-EFQRCodeCreator_Example */,
+				FC603A195FD618779D9C7C496B34F230 /* Pods-EFQRCodeCreator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		38FB47B5E700318567FA38B31FC2F80F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA99991BDE8F833799DBD8C5767A7E05 /* EFQRCodeCreator.modulemap */,
+				0BAC6AAD49353CE40D67F3B215442C40 /* EFQRCodeCreator.xcconfig */,
+				066CE037B931E6678674EF66E4A9DCD8 /* EFQRCodeCreator-dummy.m */,
+				5B5ABCA5778A44A6D0322B51669534A5 /* EFQRCodeCreator-prefix.pch */,
+				8C0A91CCEA2584CE7F6317924F6386FA /* EFQRCodeCreator-umbrella.h */,
+				705433FFDBB8F437C9B4D1BABDE00E38 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EFQRCodeCreator";
+			sourceTree = "<group>";
+		};
+		563A32A240F5B06B6E41E74C7685E215 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				258D2835C43C5C41B52A739D171B9904 /* EFQRCodeCreator.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F8D474D5BAA808B04E43B566A52F0EF3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B3AB5AE219A2B27AFEAA43F6D9F12221 /* Products */,
+				0E07985B0959451FEF9ED04DEC82E841 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94EACCEF945C6919A58EBBB4709A6420 /* EFQRCodeCreator */ = {
+			isa = PBXGroup;
+			children = (
+				02320923F7C990F21B40168B7BA24D13 /* EFQRCodeCreator */,
+				38FB47B5E700318567FA38B31FC2F80F /* Support Files */,
+			);
+			name = EFQRCodeCreator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B3AB5AE219A2B27AFEAA43F6D9F12221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE3646E8379DAF31419BBFF2FD3B056D /* EFQRCodeCreator.framework */,
+				5142D462FA927DF535FB6D7B918CFEB7 /* Pods_EFQRCodeCreator_Example.framework */,
+				997FCEF76F582A02311A2A6E1542ED51 /* Pods_EFQRCodeCreator_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F87AD72C5FE458069680A6432A3570FC /* Pods-EFQRCodeCreator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				89F2C390011C1652CAB0E1172DFB1B37 /* Info.plist */,
+				8BF0B48DBE3FF86D003049FBCE288460 /* Pods-EFQRCodeCreator_Example.modulemap */,
+				09F782C6BCDBC76601165150E5F603F0 /* Pods-EFQRCodeCreator_Example-acknowledgements.markdown */,
+				B665F0D76C27B6055ECA521363FF71FA /* Pods-EFQRCodeCreator_Example-acknowledgements.plist */,
+				DAEAB672035C2D9DFB15BE65942C21F3 /* Pods-EFQRCodeCreator_Example-dummy.m */,
+				012CAC6E5F08637D9E2BF0F713B560C1 /* Pods-EFQRCodeCreator_Example-frameworks.sh */,
+				F032FF1DC141B11E970A64004F53A3BD /* Pods-EFQRCodeCreator_Example-resources.sh */,
+				52E78F707C635F343F6F04D4110C6866 /* Pods-EFQRCodeCreator_Example-umbrella.h */,
+				CCB0BF9511CD7B7DCF44860FE9AA1E1C /* Pods-EFQRCodeCreator_Example.debug.xcconfig */,
+				64EC2A4874C471F1AEFBB4B881C43987 /* Pods-EFQRCodeCreator_Example.release.xcconfig */,
+			);
+			name = "Pods-EFQRCodeCreator_Example";
+			path = "Target Support Files/Pods-EFQRCodeCreator_Example";
+			sourceTree = "<group>";
+		};
+		F8D474D5BAA808B04E43B566A52F0EF3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94EACCEF945C6919A58EBBB4709A6420 /* EFQRCodeCreator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FC603A195FD618779D9C7C496B34F230 /* Pods-EFQRCodeCreator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5EBEE4709FBBBFBBCCECF2A46A2B537E /* Info.plist */,
+				5ACDEC46FE547A23BF153318F35EE142 /* Pods-EFQRCodeCreator_Tests.modulemap */,
+				81ACE8C8CBE9CA0D0867912C98864840 /* Pods-EFQRCodeCreator_Tests-acknowledgements.markdown */,
+				F883B188FCEC3D3A331BEFFCC8F45736 /* Pods-EFQRCodeCreator_Tests-acknowledgements.plist */,
+				0E7306E423A0183A509BAFA47CFC1E04 /* Pods-EFQRCodeCreator_Tests-dummy.m */,
+				D055B7633EE14F1828509F288794EE2C /* Pods-EFQRCodeCreator_Tests-frameworks.sh */,
+				C684A7E3F86E69A46AA0FC1F09930DEC /* Pods-EFQRCodeCreator_Tests-resources.sh */,
+				CD01C21E2EF6BF5B309C5EF5FBF99ADF /* Pods-EFQRCodeCreator_Tests-umbrella.h */,
+				14E425D8570E7568D471DCFE5C3582AE /* Pods-EFQRCodeCreator_Tests.debug.xcconfig */,
+				B6E72852FCE35522D8317543398B5D77 /* Pods-EFQRCodeCreator_Tests.release.xcconfig */,
+			);
+			name = "Pods-EFQRCodeCreator_Tests";
+			path = "Target Support Files/Pods-EFQRCodeCreator_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FDFB393F9E7D526C48A5D8EF74FD1B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3460FF049D9B658377B4D4C5A4D5FB03 /* Pods-EFQRCodeCreator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		406C9BAEBE5B85337253C99E6889028B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0919A75CF73DC10D17EE113129C10B /* EFQRCodeCreator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4CE4B05FA0A00A709BCEE19024673F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AE822E3E36E5C8E2B12DBF254FF962 /* Pods-EFQRCodeCreator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6DE786DE610B78CA0B5EE49D367CA5E3 /* Pods-EFQRCodeCreator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBA74776D3C994F0DEF17B190BDB7992 /* Build configuration list for PBXNativeTarget "Pods-EFQRCodeCreator_Example" */;
+			buildPhases = (
+				709C08CE693AC9205348FCAC2891FC8A /* Sources */,
+				B06249C49D17A3BA49399C9232DF7B5E /* Frameworks */,
+				BD4CE4B05FA0A00A709BCEE19024673F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB0618A3B7CE560907E5818EF84EA0E /* PBXTargetDependency */,
+			);
+			name = "Pods-EFQRCodeCreator_Example";
+			productName = "Pods-EFQRCodeCreator_Example";
+			productReference = 5142D462FA927DF535FB6D7B918CFEB7 /* Pods_EFQRCodeCreator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		784B555B636E748FE6D80AA75DCC26E9 /* EFQRCodeCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F469BD0D869F71E1546109C256BE4486 /* Build configuration list for PBXNativeTarget "EFQRCodeCreator" */;
+			buildPhases = (
+				4BF658708850E904A60BBF47B49F5C77 /* Sources */,
+				F5669B052C0FA2A5D21FB79B505379B7 /* Frameworks */,
+				406C9BAEBE5B85337253C99E6889028B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EFQRCodeCreator;
+			productName = EFQRCodeCreator;
+			productReference = AE3646E8379DAF31419BBFF2FD3B056D /* EFQRCodeCreator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAEB5D7850D01FD76E3E37E43E0F8EAE /* Pods-EFQRCodeCreator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746FC6DEBC9E8FFC7DD23BD83F622433 /* Build configuration list for PBXNativeTarget "Pods-EFQRCodeCreator_Tests" */;
+			buildPhases = (
+				EC56358A0D181CFA4C0614C91C363F2F /* Sources */,
+				475924D28F579BA54BBB1CC09A8FA323 /* Frameworks */,
+				0FDFB393F9E7D526C48A5D8EF74FD1B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EFQRCodeCreator_Tests";
+			productName = "Pods-EFQRCodeCreator_Tests";
+			productReference = 997FCEF76F582A02311A2A6E1542ED51 /* Pods_EFQRCodeCreator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B3AB5AE219A2B27AFEAA43F6D9F12221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				784B555B636E748FE6D80AA75DCC26E9 /* EFQRCodeCreator */,
+				6DE786DE610B78CA0B5EE49D367CA5E3 /* Pods-EFQRCodeCreator_Example */,
+				EAEB5D7850D01FD76E3E37E43E0F8EAE /* Pods-EFQRCodeCreator_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF658708850E904A60BBF47B49F5C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C5746294FFB5DB101E16CB9E6D20FD /* EFQRCodeCreator-dummy.m in Sources */,
+				48A5BF8436303463C08AF4B7B9A88BC0 /* EFQRCodeCreator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709C08CE693AC9205348FCAC2891FC8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FFB16B57F5CA98A8FE4945287F11E5E /* Pods-EFQRCodeCreator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC56358A0D181CFA4C0614C91C363F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D370F93F4CCD054589A9689CE647B8DA /* Pods-EFQRCodeCreator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAB0618A3B7CE560907E5818EF84EA0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EFQRCodeCreator;
+			target = 784B555B636E748FE6D80AA75DCC26E9 /* EFQRCodeCreator */;
+			targetProxy = 31646B92501CE93E422623B08B715821 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2AFCB6595007B3AF4F246A4D6B5948C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BAC6AAD49353CE40D67F3B215442C40 /* EFQRCodeCreator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EFQRCodeCreator/EFQRCodeCreator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFQRCodeCreator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFQRCodeCreator/EFQRCodeCreator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EFQRCodeCreator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56101759E7D9BBD1B0A8353E8F9E44B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E425D8570E7568D471DCFE5C3582AE /* Pods-EFQRCodeCreator_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EFQRCodeCreator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFQRCodeCreator_Tests/Pods-EFQRCodeCreator_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EFQRCodeCreator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AB0DF35123F91914C68219D31F310CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E72852FCE35522D8317543398B5D77 /* Pods-EFQRCodeCreator_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EFQRCodeCreator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFQRCodeCreator_Tests/Pods-EFQRCodeCreator_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EFQRCodeCreator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5EC1D342F3060F9513F08D8F85B1CFB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB0BF9511CD7B7DCF44860FE9AA1E1C /* Pods-EFQRCodeCreator_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EFQRCodeCreator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFQRCodeCreator_Example/Pods-EFQRCodeCreator_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EFQRCodeCreator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A20EEC056C76652E0AF2E0781DD324B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BAC6AAD49353CE40D67F3B215442C40 /* EFQRCodeCreator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EFQRCodeCreator/EFQRCodeCreator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFQRCodeCreator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFQRCodeCreator/EFQRCodeCreator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EFQRCodeCreator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA825987808CA4283CDC9613BB574FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64EC2A4874C471F1AEFBB4B881C43987 /* Pods-EFQRCodeCreator_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EFQRCodeCreator_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFQRCodeCreator_Example/Pods-EFQRCodeCreator_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EFQRCodeCreator_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746FC6DEBC9E8FFC7DD23BD83F622433 /* Build configuration list for PBXNativeTarget "Pods-EFQRCodeCreator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56101759E7D9BBD1B0A8353E8F9E44B4 /* Debug */,
+				5AB0DF35123F91914C68219D31F310CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBA74776D3C994F0DEF17B190BDB7992 /* Build configuration list for PBXNativeTarget "Pods-EFQRCodeCreator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC1D342F3060F9513F08D8F85B1CFB6 /* Debug */,
+				CA825987808CA4283CDC9613BB574FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F469BD0D869F71E1546109C256BE4486 /* Build configuration list for PBXNativeTarget "EFQRCodeCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20EEC056C76652E0AF2E0781DD324B9 /* Debug */,
+				2AFCB6595007B3AF4F246A4D6B5948C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

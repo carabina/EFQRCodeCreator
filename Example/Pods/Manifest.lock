@@ -1,0 +1,16 @@
+PODS:
+  - EFQRCodeCreator (0.1.0)
+
+DEPENDENCIES:
+  - EFQRCodeCreator (from `../`)
+
+EXTERNAL SOURCES:
+  EFQRCodeCreator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EFQRCodeCreator: edbd69cb5ff97c1bb5718b3e051d464568191432
+
+PODFILE CHECKSUM: 1eb2451173cf12bf0bcb8af7504641fe4039e56a
+
+COCOAPODS: 1.2.0.beta.3
