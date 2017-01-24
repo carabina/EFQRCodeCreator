@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EFQRCodeCreator_Example' do
+  pod 'EFQRCodeCreator', :path => '../'
+
+  target 'EFQRCodeCreator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
